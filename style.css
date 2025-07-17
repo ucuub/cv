@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.left-container{
+    position: fixed;
+    width: 400px;
+    height: 100vh;
+    background-color: burlywood;
+}
+
+.photo-contact{
+    position: absolute;
+    top: 120px;
+    text-align: center;
+}
+.photo{
+    width: 45%;
+    border-radius: 50%;
+}
+
+.contact-btn{
+    width: 50%;
+    background-color: cyan;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.contact-btn:hover{
+    color:  white;
+    background-color: black;
+    transition: 0.5s;
+}
+
+.right-container{
+    position: absolute;
+    left: 400px;
+}
+
+.top-bar{
+    padding: 50px;
+    padding-left: 100px;
+}
+
+.title{
+    font-style: italic;
+    font-size: 1.5rem;
+}
+
+.list-menu{
+    float: right;
+    padding-right: 50px;
+}
+
+.menu{
+    font-size: 1.2rem;
+    padding: 0 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#profile {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+#about{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#experience{
+    padding-top: 250px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#interest{
+    padding-top: 250px;
+    padding-left: 100px;
+}
+
+#contact{
+    padding-top: 250px;
+    padding-left: 100px;
+}
+
+#footer{
+    padding-top: 250px;
+    text-align: center;
+}
+
+p, li{
+    line-height: 200%;
+}
